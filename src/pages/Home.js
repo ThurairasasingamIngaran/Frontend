@@ -48,8 +48,7 @@ const deleteEmployee=async(id)=>{
       <td>
         <Link className="btn btn-primary mx-2" to={`/viewemployee/${employees.id}`}>View</Link>
         <Link className="btn btn-outline-primary mx-2" to={`/editemployee/${employees.id}`} >Edit</Link>
-        <button 
-        className="btn btn-danger mx-2" onClick={()=>deleteEmployee(employees.id)}>Delete</button>
+        <button className="btn btn-danger mx-2" onClick={()=>deleteEmployee(employees.id)}>Delete</button>
       </td>
     </tr>
       ))
